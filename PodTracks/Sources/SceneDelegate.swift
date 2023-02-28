@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     guard let windowScene = (scene as? UIWindowScene) else {
       return
     }
-    bootstrapScene(windowScene, with: UIViewController())
+    bootstrapScene(windowScene, with: makePodcastsListViewController())
   }
 }
 
@@ -28,5 +28,9 @@ private extension SceneDelegate {
     window?.windowScene = scene
     window?.rootViewController = rootViewController
     window?.makeKeyAndVisible()
+  }
+
+  func makePodcastsListViewController() -> UIViewController {
+    PodcastsListViewController()
   }
 }

@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		40460D2029AE44FB009578DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D1F29AE44FB009578DC /* AppDelegate.swift */; };
 		40460D2229AE44FB009578DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D2129AE44FB009578DC /* SceneDelegate.swift */; };
-		40460D2429AE44FB009578DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D2329AE44FB009578DC /* ViewController.swift */; };
+		40460D2429AE44FB009578DC /* PodcastsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D2329AE44FB009578DC /* PodcastsListViewController.swift */; };
 		40460D2929AE44FC009578DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40460D2829AE44FC009578DC /* Assets.xcassets */; };
 		40460D2C29AE44FC009578DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40460D2A29AE44FC009578DC /* LaunchScreen.storyboard */; };
 		40460D3729AE44FD009578DC /* PodTracksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D3629AE44FD009578DC /* PodTracksTests.swift */; };
 		40460D4129AE44FD009578DC /* PodTracksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D4029AE44FD009578DC /* PodTracksUITests.swift */; };
 		40460D4329AE44FD009578DC /* PodTracksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D4229AE44FD009578DC /* PodTracksUITestsLaunchTests.swift */; };
+		40460D5429AE4A47009578DC /* UIView+Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D5329AE4A47009578DC /* UIView+Subview.swift */; };
+		40460D5629AE4A67009578DC /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D5529AE4A67009578DC /* UIView+Constraints.swift */; };
+		40460D5B29AE4AAC009578DC /* UIViewController+Margins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D5A29AE4AAC009578DC /* UIViewController+Margins.swift */; };
+		40460D5E29AE4B0B009578DC /* PodcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D5D29AE4B0B009578DC /* PodcastTableViewCell.swift */; };
+		40460D6029AE4B2A009578DC /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D5F29AE4B2A009578DC /* Reusable.swift */; };
+		40460D6329AE4BF0009578DC /* UIStackView+ArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D6229AE4BF0009578DC /* UIStackView+ArrangedSubviews.swift */; };
+		40460D6529AE4DC3009578DC /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40460D6429AE4DC3009578DC /* Podcast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,7 @@
 		40460D1C29AE44FB009578DC /* PodTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40460D1F29AE44FB009578DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40460D2129AE44FB009578DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40460D2329AE44FB009578DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40460D2329AE44FB009578DC /* PodcastsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsListViewController.swift; sourceTree = "<group>"; };
 		40460D2829AE44FC009578DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40460D2B29AE44FC009578DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40460D2D29AE44FC009578DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		40460D3C29AE44FD009578DC /* PodTracksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTracksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40460D4029AE44FD009578DC /* PodTracksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTracksUITests.swift; sourceTree = "<group>"; };
 		40460D4229AE44FD009578DC /* PodTracksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTracksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40460D5329AE4A47009578DC /* UIView+Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Subview.swift"; sourceTree = "<group>"; };
+		40460D5529AE4A67009578DC /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		40460D5A29AE4AAC009578DC /* UIViewController+Margins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Margins.swift"; sourceTree = "<group>"; };
+		40460D5D29AE4B0B009578DC /* PodcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastTableViewCell.swift; sourceTree = "<group>"; };
+		40460D5F29AE4B2A009578DC /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		40460D6229AE4BF0009578DC /* UIStackView+ArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ArrangedSubviews.swift"; sourceTree = "<group>"; };
+		40460D6429AE4DC3009578DC /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +149,72 @@
 			children = (
 				40460D1F29AE44FB009578DC /* AppDelegate.swift */,
 				40460D2129AE44FB009578DC /* SceneDelegate.swift */,
-				40460D2329AE44FB009578DC /* ViewController.swift */,
+				40460D5129AE48D3009578DC /* Screens */,
+				40460D5229AE4A2B009578DC /* Utils */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		40460D5129AE48D3009578DC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				40460D5C29AE4AC9009578DC /* TopPodcasts */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		40460D5229AE4A2B009578DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				40460D5729AE4A71009578DC /* Extensions */,
+				40460D5F29AE4B2A009578DC /* Reusable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		40460D5729AE4A71009578DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40460D6129AE4BE3009578DC /* UIStackView */,
+				40460D5829AE4A76009578DC /* UIView */,
+				40460D5929AE4AA0009578DC /* UIViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40460D5829AE4A76009578DC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				40460D5529AE4A67009578DC /* UIView+Constraints.swift */,
+				40460D5329AE4A47009578DC /* UIView+Subview.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		40460D5929AE4AA0009578DC /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40460D5A29AE4AAC009578DC /* UIViewController+Margins.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		40460D5C29AE4AC9009578DC /* TopPodcasts */ = {
+			isa = PBXGroup;
+			children = (
+				40460D6429AE4DC3009578DC /* Podcast.swift */,
+				40460D5D29AE4B0B009578DC /* PodcastTableViewCell.swift */,
+				40460D2329AE44FB009578DC /* PodcastsListViewController.swift */,
+			);
+			path = TopPodcasts;
+			sourceTree = "<group>";
+		};
+		40460D6129AE4BE3009578DC /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				40460D6229AE4BF0009578DC /* UIStackView+ArrangedSubviews.swift */,
+			);
+			path = UIStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40460D2429AE44FB009578DC /* ViewController.swift in Sources */,
+				40460D5B29AE4AAC009578DC /* UIViewController+Margins.swift in Sources */,
+				40460D5429AE4A47009578DC /* UIView+Subview.swift in Sources */,
+				40460D2429AE44FB009578DC /* PodcastsListViewController.swift in Sources */,
+				40460D5E29AE4B0B009578DC /* PodcastTableViewCell.swift in Sources */,
+				40460D6529AE4DC3009578DC /* Podcast.swift in Sources */,
+				40460D6329AE4BF0009578DC /* UIStackView+ArrangedSubviews.swift in Sources */,
+				40460D6029AE4B2A009578DC /* Reusable.swift in Sources */,
+				40460D5629AE4A67009578DC /* UIView+Constraints.swift in Sources */,
 				40460D2029AE44FB009578DC /* AppDelegate.swift in Sources */,
 				40460D2229AE44FB009578DC /* SceneDelegate.swift in Sources */,
 			);
